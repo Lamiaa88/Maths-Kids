@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Subtract</title>
+</head>
+
+<body>
+
+  <audio id="audio">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <h2>MATH KIDS</h2>
+       
+          <ul>
+            <li><a href="index.html">Add</a></li>
+            <li class="current" ><a href="sub.html">Subtract</a></li>
+            <li><a href="mult.html">Multiply</a></li>
+            <li><a href="div.html">Divide</a></li>
+          </ul>
+       
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="equation">
+      <h1 id="num1" style="color:#FE4A49"></h1>
+      <h1 style="color: #2AB7CA">-</h1>
+      <h1 id="num2" style="color: #FED766"></h1>
+      <h1 style="color: #F86624">=</h1>
+      <h1 style="color: gray">?</h1>
+    </div>
+    <div class="answer-options">
+      <div class="options" style="background-color: #FE4A49;">
+        <h1 id="op1">1</h1>
+      </div>
+      <div class="options" style="background-color: #2AB7CA;">
+        <h1 id="op2">2</h1>
+      </div>
+      <div class="options" style="background-color: #FED766;">
+        <h1 id="op3">3</h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="sub.js"></script>
+</body>
+
+</html>
